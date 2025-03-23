@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+
+*{
+    background-color: rgba(0, 0, 0, 0.867);
+    color: white;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-header{
+    width: 60vw;
+    height: 8vh;
+    display: flex;
+    align-items: end;
+    border-bottom: 5px solid skyblue;
+}
+.nav-bar{
+    width: 60vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.nav-bar a{
+    text-decoration: none;
+    width: 10vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav-bar a:hover{
+    background-color: rgb(112, 169, 191);
+    color: black;
+    transition: 0.5s;
+}
+
+
+.hero-section{
+    width: 70vw;
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-section img{
+    margin-bottom: -100px;
+}
+
+.hero-text{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    gap: 20px;
+}
+.hero-text h2{
+    margin: 0;
+    font-family: "Boldonse", system-ui;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 35px;
+}
+
+.div-footer{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.history-wrapper{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.history-part1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: left;
+}
+
+.history-part1 h3{
+    margin: 0;
+    font-family: "Boldonse", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    border-bottom: 3px solid skyblue;
+    width: 30vw;
+}
+.history-name{
+    font-family: "Boldonse", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.history-part1 p{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.history-part1 a{
+    text-decoration: none;
+}
+
+.classific-wrapper{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.classific-name{
+    font-family: "Boldonse", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.classific-part{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50vw;
+    padding: 40px;
+}
+
+.classific-part h3{
+    margin: 0;
+    font-family: "Boldonse", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    border-bottom: 3px solid skyblue;
+    width: 30vw;
+}
+
+.classific-part ul{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 50px;
+    width: 50vw;
+}
+
+
+.topology-table table, td{
+    border: 3px solid white;
+    border-collapse: collapse;
+    width: 900px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.topology-table thead{
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+}
+
+.topology-wrapper{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.topology-name{
+    font-family: "Boldonse", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.topology-part{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50vw;
+    padding: 40px;
+}
+
+.topology-part h3, .topology-table h3{
+    margin: 0;
+    font-family: "Boldonse", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    border-bottom: 3px solid skyblue;
+    width: 30vw;
+}
+
+.topology-part p{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+.modelosi-wrapper{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.modelosi-name{
+    font-family: "Boldonse", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.modelosi-part{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50vw;
+    padding: 40px;
+}
+
+.modelosi-part h3{
+    margin: 0;
+    font-family: "Boldonse", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    border-bottom: 3px solid skyblue;
+    width: 30vw;
+}
+
+.modelosi-part p{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.modelip-wrapper{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.modelip-name{
+    font-family: "Boldonse", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.modelip-part{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50vw;
+    padding: 40px;
+}
+
+.modelip-part h3{
+    margin: 0;
+    font-family: "Boldonse", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    border-bottom: 3px solid skyblue;
+    width: 30vw;
+}
+
+.modelip-part p{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+
+.protocols-wrapper{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.protocols-name{
+    font-family: "Boldonse", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.protocols-part{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50vw;
+    padding: 40px;
+}
+
+.protocols-part h3{
+    margin: 0;
+    font-size: 25px;
+    border-bottom: 3px solid skyblue;
+    width: 30vw;
+}
+
+.protocols-part p{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 50px;
+}
